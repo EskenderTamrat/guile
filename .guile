@@ -1,0 +1,13 @@
+ (use-modules (ice-9 readline))
+    (activate-readline)
+    (add-to-load-path "/usr/local/share/opencog/scm")
+    (add-to-load-path "/usr/local/share/opencog/scm/opencog")
+    (add-to-load-path ".")
+    (use-modules (opencog))
+    (use-modules (opencog query))
+    (use-modules (opencog exec))
+    (use-modules (opencog)  (opencog openpsi))
+    (use-modules (opencog)(opencog nlp relex2logic) (opencog openpsi) (opencog eva-behavior))
+
+    (use-modules (opencog ghost) (opencog python))
+    (use-modules (srfi srfi-1))
